@@ -13,30 +13,26 @@ nav{
     background-color: white;
 }
 
+.list-inline {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .home{
     margin-left: 10px;
-    margin-top: 10px;
 }
 
 .section{
     display: flex;
-    margin-left: 84%;
-
+    align-items: center;
 }
 
-.help{
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-.settings{
-    margin-right: 10px;
-    margin-top: 10px;
-} 
-
-.logOut{
-    margin-right: 10px;
-    margin-top: 10px;
+.section li {
+  margin-right: 10px;
 }
 
 footer{
