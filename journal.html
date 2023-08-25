@@ -17,112 +17,70 @@
                 </li>
             <div class="section">
                 <li class="settings">
-                    <a href="/">Settings</a>
+                    <a href="/settings.html">Settings</a>
                 </li>
                 <li class="help">
-                    <a href="/">Help</a>
+                    <a href="/help.html">Help</a>
                 </li> 
                 <li class="logOut">
-                    <a href="/">Logout</a>
+                    <a href="/signIn.html">Logout</a>
                 </li>
             </div>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>My Journal </h1>
-        <form class=" journal container border border-dark p-3"></form>
-
-        <section class="entry-list">
-            <article class="entry">
-              <h2>Entry Title</h2>
-              <p>Entry content goes here...</p>
-              <p class="tags">Tags: Tag1, Tag2</p>
-              <p class="timestamp">Posted on: August 21, 2023</p>
-              <button>Edit</button>
-              <button>Delete</button>
-            </article>
-          <section class="entry-form">
-            <h2>Create a New Entry</h2>
+        <aside class="entry-list">
+            <ul>
+                <li><a href="#">Entry 1</a></li>
+                <li><a href="#">Entry 2</a></li>
+                <li><a href="#">Entry 3</a></li>
+                <!-- Add more entry links here -->
+            </ul>
+        </aside>
+        <section class="entry-form">
+            <!-- ... existing entry form content ... -->
+        </section>
+        <section class="entry-form pt-2">
+                <div id="font-options" class="pt-2">
+                    <label for="font-select">Font:</label>
+                    <select id="font-select">
+                        <option value="Arial">Arial</option>
+                        <option value="Times New Roman">Times New Roman</option>
+                        <option value="Verdana">Verdana</option>
+                    </select>
+                    <label for="size-select">Size:</label>
+                    <select id="size-select">
+                        <option value="12px">12</option>
+                        <option value="16px">16</option>
+                        <option value="20px">20</option>
+                    </select>
+                </div>
+                <div id="formatting-options">
+                    <button class="format-button" id="bold">Bold</button>
+                    <button class="format-button" id="italic">Italic</button>
+                    <button class="format-button" id="underline">Underline</button>
+                    <button class="format-button" id="underline">Text Color</button>
+                    <button class="format-button" id="list">Highlight</button>
+                    <button class="format-button" id="table">Spacing</button>
+                    <button class="format-button" id="list">List</button>
+                </div>
             <form>
               <label for="entry-title">Title:</label>
               <input type="text" id="entry-title" name="entry-title" required>
       
               <label for="entry-content">Content:</label>
               <textarea id="entry-content" name="entry-content" rows="5" required></textarea>
-      
-              <label for="entry-tags">Tags:</label>
-              <input type="text" id="entry-tags" name="entry-tags" placeholder="Tag1, Tag2">
-      
               <button type="submit">Save Entry</button>
             </form>
-          </section>
-
+        </section> 
     </main>
     <footer class=" border-top border-dark p-2">
         <div class="container text-center">
             <p class="mb-0 small">Copyright &copy; 2023 MyJournal</p>
         </div>
     </footer>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Online Journal</title>
-  <link rel="stylesheet" href="styles.css">  -->
-<!-- </head>
-<body>
-  <header>
-    <h1>Your Online Journal</h1>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/entries">My Entries</a></li>
-        <li><a href="/new-entry">New Entry</a></li>
-        <li><a href="/settings">Settings</a></li>
-        <li><a href="/logout">Logout</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="entry-list">
-      <article class="entry">
-        <h2>Entry Title</h2>
-        <p>Entry content goes here...</p>
-        <p class="tags">Tags: Tag1, Tag2</p>
-        <p class="timestamp">Posted on: August 21, 2023</p>
-        <button>Edit</button>
-        <button>Delete</button>
-      </article> -->
-
-      <!-- More entries can be added here -->
-    <!-- </section>
-
-    <section class="entry-form">
-      <h2>Create a New Entry</h2>
-      <form>
-        <label for="entry-title">Title:</label>
-        <input type="text" id="entry-title" name="entry-title" required>
-
-        <label for="entry-content">Content:</label>
-        <textarea id="entry-content" name="entry-content" rows="5" required></textarea>
-
-        <label for="entry-tags">Tags:</label>
-        <input type="text" id="entry-tags" name="entry-tags" placeholder="Tag1, Tag2">
-
-        <button type="submit">Save Entry</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2023 Your Online Journal</p>
-  </footer>
-</body>
-</html> -->
