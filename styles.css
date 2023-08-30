@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(192, 122, 192) !important;
+    background-color:  #c8a2c8 !important;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -10,7 +10,8 @@ main{
 }
 
 nav{
-    background-color: white;
+    background-color: #fee6e3;
+    height: 35px;
 }
 
 .signIn{
@@ -21,18 +22,62 @@ nav{
     display: flex;
 } */
 
-.home{
-    margin-left: 10px;
-    margin-top: 10px;
+.button2{
+    background-color:white !important;
+    border: 1px solid #111;
+    border-radius: 4px !important;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 13px;
+    height: 28px;
+    justify-content: center;
 }
 
-.help{
-    margin-right: 10px;
-    margin-top: 10px;
+.button2:hover{
+    background-color: #757575;
+    border-radius: 4px;
+    content: "";
+    display: block;
 }
+
+.list-inline {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+}
+
+#home{
+    margin-left: 10px;
+}
+
+/* #help{
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+} */
+
+.navbar-sec{
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #111 !important;
+    cursor: pointer;
+    font-family: Inter,sans-serif !important;
+    font-size: 15px;
+  }
 
 form{
-    background-color: white;
+    background-color: #fee6e3;
 }
 
 .db {
@@ -48,5 +93,5 @@ form{
 }
 
 footer{
-    background-color: white; 
+    background-color: #fee6e3; 
 }

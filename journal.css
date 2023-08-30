@@ -22,13 +22,6 @@ main{
   padding: 0;
 }
 
-.entry-list li {
-  margin: 6px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid black;
-  background-color: white;
-}
-
 .entry-list a {
   text-decoration: none;
   color: #333;
@@ -40,6 +33,7 @@ main{
 
 nav{
     background-color: #fee6e3;
+    height: 35px;
 }
 
 .list-inline {
@@ -48,7 +42,7 @@ nav{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 3px;
 }
 
 #home{
@@ -57,9 +51,53 @@ nav{
 
 .navbar-sec{
     display: flex;
-    align-items: center;
     gap: 10px;
     margin-right: 10px;
+}
+
+.button2{
+    background-color:white !important;
+    border: 1px solid #111;
+    border-radius: 4px !important;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 13px;
+    height: 28px;
+    justify-content: center;
+}
+
+.button2:hover{
+    background-color: #757575;
+    border-radius: 4px;
+    content: "";
+    display: block;
+}
+
+.button{
+    background-color:white !important;
+    border: 1px solid #111;
+    border-radius: 4px !important;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 13px;
+    height: 30px;
+    justify-content: center;
+    width: 237px;
+    margin: 6px;
+}
+
+.button:hover{
+    background-color: #757575;
+    border-radius: 4px;
+    content: "";
+    display: block;
+    height: 30px;
 }
 
 .section li {
