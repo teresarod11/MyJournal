@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <base href="http://localhost/index.html"> -->
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="border-bottom border-dark">
+        <ul class="list-inline d-flex">
+            <li id="home">
+                <button class="button2"><a href="/">Home</a></button>
+            </li>
+            <li id="help">
+                    <button class="button2"><a href="/templates/help.html">Help</a></button>
+            </li> 
+        </ul>
+    </nav>
+<main>
+    <section class="signIn container">
+        <!-- <div class="container border border-dark p-3">
+                image
+        </div> -->
+        <form class="d-flex justify-content-center border border-dark p-3" method="POST" action="/">
+            <div>
+                <h2 class="mb-4">Sign In</h2>
+            <div class="form-group">
+                <label for="email"> Email: </label>
+                <input type="text" class="form-control" name="email"/> 
+            </div>
+            <div class="form-group">
+                <label for="password"> Password: </label>
+                <input type="password" class="form-control" name="password"/>
+            </div>
+            <div class="form-group">
+                 <label><input type="checkbox"> Remember Me </label>
+            </div>
+                <button class="button mt-3" 
+                id="loginButton"> Sign In </button>
+            <div class="mt-3">
+                <a href="/signUp"> Sign Up</a>
+                <a href="#" class="link db"> Forgot Your Password?</a>
+            </div>
+            </div>
+        </form>
+    </section>    
+</main>
+    <footer class=" border-top border-dark p-2">
+        <div class="container text-center">
+            <p class="mb-0 small">Copyright &copy; 2023 MyJournal</p>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
